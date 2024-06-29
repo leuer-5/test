@@ -2,11 +2,21 @@
     font-family: head;
     src:url(Chunk.ttf)
 }
+.material-symbols-outlined {
+    color: white;
+    font-size: 200%;
+    
+}
+
 .custom-navbar{
+    overflow-x: hidden;
     letter-spacing: 1px;
     font-family: head;
     background-color: #1b1b1b;
     color: white;
+    padding: 10px 0; /* Ensure consistent padding */
+    height: auto;
+    transition: height 0.3s;
 }
 
 .nav-link{
@@ -14,6 +24,7 @@
 }
 
 .btn-custom{
+    float: right;
     color: white;
     background-color:#32190a;
     justify-content: center;
@@ -112,6 +123,34 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+p{ 
+    color: white;
+    font-size: 30px;
+    font-family: head;
+}
+p.thicker{
+    background-color: #9e6d3b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.sticky-top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    width: 100%;
+    padding: 3%;
+    background-color: #9e6d3b;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+
+
 
   
 
