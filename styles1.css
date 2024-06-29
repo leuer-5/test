@@ -14,7 +14,7 @@
     font-family: head;
     background-color: #1b1b1b;
     color: white;
-    padding: 10px 0; /* Ensure consistent padding */
+    padding: 10px 0;
     height: auto;
     transition: height 0.3s;
 }
@@ -146,6 +146,15 @@ p.thicker{
 
 .navbar-toggler {
     border: none;
+}
+.footer{
+    color: white;
+    text-align: center;
+    background-color: #1b1b1b;
+}
+.footer a{
+    color: white;
+    font-size: 300%;
 }
 
 

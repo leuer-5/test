@@ -2,6 +2,11 @@
     font-family: head;
     src:url(Chunk.ttf)
 }
+.material-symbols-outlined {
+    color: white;
+    font-size: 200%;
+    
+}
 .custom-navbar{
     letter-spacing: 1px;
     font-family: head;
@@ -99,9 +104,17 @@
 }
 
 body{
+    background-color: #1b1b1b;
     width: 100%;
     overflow-x: hidden;
 }
 
-  
-
+.footer{
+    color: white;
+    text-align: center;
+    background-color: #1b1b1b;
+}
+.footer a{
+    color: white;
+    font-size: 300%;
+}
