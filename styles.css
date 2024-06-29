@@ -19,6 +19,7 @@
 }
 
 .btn-custom{
+    font-family: head;
     background-color: rgb(34, 155, 242);
     display: flex;
     justify-content: center;
