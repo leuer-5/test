@@ -14,8 +14,8 @@
 }
 
 .btn-custom{
-    background-color: rgb(34, 155, 242);
-    display: flex;
+    color: white;
+    background-color:#32190a;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -23,16 +23,14 @@
 }
 .btn-custom:hover{
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: #9e6d3b;
 }
 .Sales{
     background-color: #9e6d3b;
     padding-top: 2%;
     padding-left: 2%;
 }
-.categories{
-    padding: 2%;
-}
+
 .container1{
     color: white;
     font-family: head;
@@ -98,6 +96,18 @@
     opacity: 1;
 }
 
+.modal-title{
+    color: white;
+    font-family: head;
+}
+.modal-header{
+    background-color:#32190a
+}
+
+.modal-body{
+    background-color: #9e6d3b;
+    text-align: center;
+}
 body{
     width: 100%;
     overflow-x: hidden;
